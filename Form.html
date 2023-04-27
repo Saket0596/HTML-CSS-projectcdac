@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Resume Form</title><br>
+   <link rel="stylesheet" href="form.css">
+</head>
+<style>
+    h1{
+        color:whitesmoke;
+        background-color: blue;
+        text-decoration: underline;
+    }
+    label.thick{
+        font-weight: bolder;
+    }
+    input {
+        font-style: italic;
+    }
+    
+    </style>
+<body>
+    <div>
+    <center>
+        <h1> Create Your Resume</h1>
+    </center>
+    <br>
+
+<form action="new.html">
+    <label style="color:brown;"><b>Enter Your Name :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="First Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Middle Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Last Name"><br>
+    <br>
+    
+    <label style="color:brown;"><b>Enter Your Address :</b></label>&nbsp;&nbsp;
+    <input type="text" placeholder="Street Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Area Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="City Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="District Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="State">
+        <option value="">Select State</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="West Bengal">West Bengal</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" placeholder="PIN Code"><br>
+    <br>
+    <label style="color:brown;"><b>Select Date of Birth :</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="date"><br>
+    <br>
+    <label style="color:brown;"><b>Contact Mobile no :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="tel" pattern="[0-9]{10}" placeholder="Enter Number"><br>
+    <br>
+    <label style="color:brown;"><b>Email Id :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" placeholder="@gmail.com"><br>
+    <br>
+    <br>
+    <label style="color:brown;"><b>Work Experience :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" placeholder="year">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Firm name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Project">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Designation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    <br>
+    <label style="color:brown;"><b>Gender :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label style="color:darkolivegreen;" for="Male">
+        <input type="radio" value="M" name="Gender" id="Male"> Male
+    </label>
+    <label style="color:darkolivegreen;" for="Female">
+        <input type="radio" value="F" name="Gender" id="Female">Female
+    </label><br>
+    <br>
+    <label style="color:brown;"><b>Education :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    <label style="color:darkolivegreen;" ><b>Graduation</b></label></label>
+    <select name="Streams" id="St">
+
+        <option value="no">Select your Degree</option>
+        <option value="BE">Engineering</option>
+        <option value="BC">BCom</option>
+        <option value="BSC">BSC</option>
+        <option value="LAW">LAW</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="University">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <select name="Branch" id="Br">
+
+        <option value="no">Select your Branch</option>
+        <option value="EE">Electrical</option>
+        <option value="IT">IT</option>
+        <option value="CS">CS</option>
+        <option value="Mech">Mechanical</option>
+        <option value="Civ">Civil</option>
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" placeholder="Grades">
+    <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <label style="color:darkolivegreen;"><b>12th Standard </b></label></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="Board" id="bd">
+
+        <option value="no">Select Board</option>
+        <option value="C">CBSE</option>
+        <option value="I">ICSC</option>
+        <option value="Sb">State Board</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="School Name">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <select name="Stream" id="St">
+
+        <option value="no">Select your Stream</option>
+        <option value="PCM">PCM</option>
+        <option value="AR">Arts</option>
+        <option value="BM">Bio Maths</option>
+        <option value="Comm">Commerece</option>
+        <option value="HS">Home Science</option>
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" placeholder="Grades">
+    <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <label style="color:darkolivegreen;"><b>10th Standard </b></label></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="Board" id="bd">
+
+        <option value="no">Select Board</option>
+        <option value="C">CBSE</option>
+        <option value="I">ICSC</option>
+        <option value="Sb">State Board</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="School Name">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <select name="Subject" id="Sb">
+
+        <option value="no">Select Subject</option>
+        <option value="Sas">Sanskrit</option>
+        <option value="Hin">Hindi</option>
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+    <input type="number" placeholder="Grades">
+    <br><br>
+    <label style="color:brown;"><b>Language known:</b></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>Python</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>Java</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>c/c++</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>HTML</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>CSS</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>Node js</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="pl" class="red" name="language">
+    <label style="color:olivedrab;" for="P language"><i>SQL</i></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    <br>
+    <label style="color:brown;"><b>Projects :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Project Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    <textarea name="Explain project" id="explain" cols="90" rows="5" placeholder="Explain Project"></textarea>
+    <br>
+</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" placeholder="Project Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<textarea name="Explain project" id="explain" cols="90" rows="5" placeholder="Explain Project"></textarea>
+<br><br>
+<label style="color:brown;"><b>Objective :</b></label>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <textarea name="Enter Objective" id="explain" cols="90" rows="5" placeholder="Enter Objective"></textarea>
+    <br><br>
+    <label style="color:brown;"><b>Hobbies :</b></label>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <textarea name="Enter Objective" id="explain" cols="90" rows="5" placeholder="Enter your hobbies"></textarea>
+    <br><br>
+    <label style="color:brown;"><b>Upload Document in pdf:</b></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="file">
+    <br><br>
+    <label style="color:brown;"><b>Declaration :</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <label style="color:darkolivegreen;" for="Agree">
+        <input type="radio" value="a" name="Declaration" id="Agree"> Agree
+    </label>
+    <label style="color:darkolivegreen;" for="Disagree">
+        <input type="radio" value="a" name="Declaration" id="Disagree">Disagree
+    </label><br>
+
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p style="color:olivedrab;">I hereby declare that the above information is true to the best of my knowledge.</p>
+    <center>
+    <input  type="Submit" style="height:50px; width:100px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="Reset" style="height:50px; width:80px">
+    </center>
+
+    
+</form>
+</div>
+</body>
+</html>
